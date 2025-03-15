@@ -6,14 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>umax</h1>
+        <h1>Voice max</h1>
         <p>Unlock your maximum potential</p>
         <a
           href="https://apps.apple.com/app/id123456789"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="app-store-badge.png" alt="Download on the App Store" />
+          <img src="appstore.png" alt="Download on the App Store" />
         </a>
       </header>
       <footer className="footer">
