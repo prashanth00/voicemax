@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Wrap links to a new line on small screens */
+  justify-content: space-between; /* Space between links and social icons */
+  flex-direction: column;
+  justify-content: center; /* Center the footer horizontally */
+  align-items: center;
+}
+
+.footer-links {
+  display: flex; /* Display links in a row */
+  gap: 1rem; /* Space between links */
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .footer-links {
+    flex-direction: column; /* Display links in a column on small screens */
+    align-items: center;
+  }
+}
