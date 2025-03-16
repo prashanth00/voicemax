@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css"; // Import your CSS file
 import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6"; // Import icons from react-icons
+import appstore from "./assets/appstore.png";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="appstore.png" alt="Download on the App Store" />
+          <img src={appstore} alt="Download on the App Store" />
         </a>
       </header>
       <footer className="footer">
