@@ -65,12 +65,20 @@
 .footer-links {
   display: flex; /* Display links in a row */
   gap: 1rem; /* Space between links */
+  a {
+    text-decoration: none;
+    color: rgb(0, 75, 145);
+  }
 }
 
 .social-media {
   display: flex;
   gap: 1rem;
   padding: 1rem 0;
+
+  svg {
+    color: rgb(0, 75, 145);
+  }
 }
 
 @media screen and (max-width: 768px) {
