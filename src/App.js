@@ -17,6 +17,7 @@ function App() {
           <img src={appstore} alt="Download on the App Store" />
         </a>
       </header>
+
       <footer className="footer">
         <div className="footer-content">
           <div className="social-media">
@@ -44,8 +45,20 @@ function App() {
           </div>
           <div className="footer-links">
             <a href="/">Contact</a>
-            <a href="/">Terms</a>
-            <a href="/">Privacy</a>
+            <a
+              href={`${window.location.origin}/terms`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Terms
+            </a>
+            <a
+              href={`${window.location.origin}/privacy`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Privacy
+            </a>
             <a href="/">About</a>
           </div>
         </div>
