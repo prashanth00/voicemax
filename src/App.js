@@ -44,7 +44,7 @@ function App() {
               <FaXTwitter />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/mytone.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,7 +52,13 @@ function App() {
             </a>
           </div>
           <div className="footer-links">
-            <a href="/">Contact</a>
+            <a
+              href="mailto:mytoneofficial@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
             <a
               href={`${window.location.origin}/terms`}
               target="_blank"
