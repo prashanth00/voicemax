@@ -9,8 +9,8 @@ const MainRouter = () => {
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );
