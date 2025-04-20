@@ -73,7 +73,6 @@ function App() {
             >
               Privacy
             </a>
-            <a href="/">About</a>
           </div>
         </div>
       </footer>
