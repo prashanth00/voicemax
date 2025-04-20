@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
     document.title = "myTone | Policy"; // Set browser tab title
     const favicon = document.querySelector("link[rel~='icon']");
     if (favicon) {
-      favicon.href = "/favicon.ico"; // Update to your app's icon path if different
+      favicon.href = "/icon.png"; // Update to your app's icon path if different
     }
   }, []);
 
