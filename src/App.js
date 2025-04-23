@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css"; // Import your CSS file
-import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6"; // Import icons from react-icons
+import { FaTiktok, FaInstagram } from "react-icons/fa6"; // Import icons from react-icons
 import appstore from "./assets/appstore.png";
 import icon from "./assets/icon.png";
 
@@ -14,7 +14,7 @@ function App() {
         </div>
         <p>Unlock your maximum potential</p>
         <a
-          href="https://apps.apple.com/app/id123456789"
+          href="https://apps.apple.com/app/mytone-sound-better/id6743761697"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -30,18 +30,11 @@ function App() {
         <div className="footer-content">
           <div className="social-media">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.tiktok.com/@mytone.app"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaXTwitter />
+              <FaTiktok />
             </a>
             <a
               href="https://www.instagram.com/mytone.app/"
