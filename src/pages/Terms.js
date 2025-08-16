@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Terms = () => {
   const [htmlContent, setHtmlContent] = useState("");
@@ -7,19 +8,17 @@ const Terms = () => {
     fetch("/Terms.htm")
       .then((response) => response.text())
       .then((data) => setHtmlContent(data));
-
-    document.title = "myTone | Terms"; // Set browser tab title
-    const favicon = document.querySelector("link[rel~='icon']");
-    if (favicon) {
-      favicon.href = "/icon.png"; // Update to your app's icon path if different
-    }
   }, []);
 
   return (
-    <div
-      style={{ padding: "2rem" }}
-      dangerouslySetInnerHTML={{ __html: htmlContent }}
-    />
+    <div style={{ padding: "2rem" }}>
+      <Helmet>
+        <title>myTone | Terms</title>
+        <link rel="icon" href="/icon.png" />
+      </Helmet>
+
+      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+    </div>
   );
 };
 
